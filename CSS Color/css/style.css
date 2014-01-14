@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {background-color:#800000;}
+
+h1 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#6F3;
+}
+
+p  {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:gold;
+}
+
+ul {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#FF0;
+
+}
+
+
+
