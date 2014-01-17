@@ -1,7 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {background-color:#800000;}
+body {
+	background-color: #800000;
+	border: 1px solid #000000;
+	margin-left: 90px;
+}
 
 h1 {
 	font-family:Georgia, "Times New Roman", Times, serif;
@@ -20,9 +24,10 @@ h2 {
 }
 
 p  {
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-style:italic;
-	color:rgb(255,255,0);
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: rgb(255,255,0);
+	
 }
 
 ul {
@@ -40,11 +45,3 @@ ul {
 
 
 }
-
-
-
-
-
-
-
-
