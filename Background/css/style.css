@@ -1,6 +1,21 @@
 @charset "UTF-8";
 /* CSS Document */
 
+table {
+	border: 4px dotted black;
+	background-color:#FF0;
+	width:100%;
+	padding 5px;
+
+}
+
+td,th {
+       border: 2px dotted black;
+       background:
+       text-align: 1px
+       padding:
+}
+
 body {
   background-image:url(../images/pattern.gif);
   background-repeat:repeat;
@@ -18,13 +33,13 @@ body {
 }
 
 
-h1 {
+#header {
   font-family:Georgia, "Times New Roman", Times, serif;
   font-size: 1.250em;
   text-align:center;
   color:#6F3;
   border: 10px dotted #000;
-  padding:20px;
+  padding:15px;
   margin:0.938em;
   margin-left:0.938em;
   margin-right:0.938em;
@@ -48,24 +63,23 @@ h2 {
 }
 
 /* Information */
-#content-1 {
+.article {
   width:20%;
   margin:1%;
   border: 10px solid #666;
-  float:right;
+  float:left;
   margin:10px 20px 10px 10px;
   padding:25px 70px 10px 70px;
   background-color:#999;
   border-radius:30px;
-  clear:both;
 }
 
 /* History */
-#content-2 {
-  width: 20%;
+.article {
+  width: 25%;
   margin:1%;
   border: 10px solid #666;
-  float: left;
+  float:left;
   padding: 10px 20px 10px 5px;
   margin: 10px 70px 10px 0px ;
   background-color: #999;
@@ -73,15 +87,26 @@ h2 {
 }
 
 /* Serve */
-#content-3 {
-  width:15%;
-  margin:1%;
-  border: 10px solid #666;
-  float:left;
-  padding: 10px 20px 10px 30px;
-  margin: 10px 50px 10px 40px ;
-  background-color:#999;
-  border-radius:30px;
+.aside {
+	width: 15%;
+	border: 10px solid #666;
+	float: left;
+	background-color: #999;
+	border-radius: 30px;
+	margin-top: 10px;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	margin-left: 40px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+
+#footer {
+	color:#00F;
+
+
 }
 
 p  {
@@ -91,7 +116,7 @@ p  {
 	
 }
 
-li {
+ul {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	text-transform:capitalize;
 	text-align:center;
