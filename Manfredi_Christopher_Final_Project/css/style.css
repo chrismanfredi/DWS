@@ -102,8 +102,66 @@ td,th {
 
 }
 
+input {
+	width:214px;
+	display:block;
+	border: 1px solid #999;
+	height: 25px;
+	float:right;
+	clear:both;
 }
 
+input#submit {
+	color:#090;
+	backgroud-color:#FF3;
+	padding: 5px;
+	margin: 20px;
+	width: 230px;
+	text-align:center;
+}
+
+input#submit:hover {
+	color:#C6C;
+	background-color:#FF0;
+}
+
+input#submit:focus {
+	color:#656565;
+	background-color:#C36;
+}
+
+label {
+	color: #0F0;
+	padding-top: 55px;
+	padding-right: 300px;
+	float: left;
+	clear: both;
+	padding-left: 230px;
+	padding-right:30px;
+	text-align:50px
+	
+}
+
+forms {
+		padding: 0 0 30px 150px;
+		margin: 0 0 0 90px;
+        float:left;
+        clear:both;
+		
 
 
+}
 
+#dropdown {
+        float:right;
+		margin-top:40px;
+		margin-left:70px;
+		background-color:#936;
+		color:#FF3
+}
+
+#forms {
+	float:left;
+	padding: 10px 1px 1px 150px;
+	
+}

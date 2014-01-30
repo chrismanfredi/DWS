@@ -1,9 +1,70 @@
 <!DOCTYPE HTML>
 <head>
-<meta charset=UTF-8"/>
+<meta charset="UTF-8"/>
 <title>Sign-up</title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="../../../Web Sites/Animate CSS/animate.css" type="text/css">
 </head>
 
+<div id="header" class="animated bounceInUp">
+<img src="images/header.png" width="1400" height="200">
+</div>
+
+<ul>
+	<li><a href="index.html">Home</a></li>
+    <li><a href="weapons.html">Weapons</a></li>
+    <li><a href="articles.html">Articles</a></li>
+    <li><a href="sign-up.html">Sign-Up</a></li>
+</ul>
+
 <body>
+<div id="forms">
+<form>
+	<label for="firstname">First Name:</label>
+	<input type="text" name="firstname" required="required" placeholder="Enter First Name">
+    
+    <label for="lastname">Last Name:</label>
+    <input type="text" name="lastname" required="required" placeholder="Enter Last Name">
+    
+    <label for="zipcode">Zip Code:</label>
+    <input type="text" name="zipcode" required="required" placeholder="Enter Zip Code">
+    
+    <label for="email">Email:</label>
+    <input type="email" name="email" required="required" placeholder="Enter Email Address">
+    
+    <label for="pwd">Password:</label>
+    <input type="password" name="password" required="required" placeholder="Enter Password">
+    
+    <label for="sex">Male:</label>
+    <input type="radio" name="sex" value="Male">
+    
+    <label for="sex">Female:</label>
+    <input type="radio" name="sex" value="Female">
+    
+    <label for="xbox">I Play Xbox:</label>
+    <input type="checkbox" name="xbox" value="question">
+    
+    <label for="PS">I Play Playstation:</label>
+    <input type="checkbox" name="ps" value="question">
+    
+    <select id="dropdown" name="mydropdown">
+  		<option value="Age" placeholder="Age">What is your age Group</option>
+  		<option value="5-12">5-12</option>
+  		<option value="13-19">13-19</option>
+  		<option value="20+">20+</option>
+    </select>
+    
+    <input type="submit" value="Submit" id="submit">
+
+</form>
+    
+    
+    
+
+
+
+
+
+
 </body>
 </html>
