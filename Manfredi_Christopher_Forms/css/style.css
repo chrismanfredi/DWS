@@ -104,7 +104,7 @@ label {
 }
 
 /* Information */
-.article {
+#article {
   width:20%;
   margin:1%;
   border: 10px solid #666;
